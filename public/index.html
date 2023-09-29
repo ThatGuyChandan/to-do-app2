@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./main.css" />
+
+    <title>to-do</title>
+     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body><form class="task-form">
+      <h4>To-Do List</h4>
+      <div class="form-control">
+        <input
+          type="text"
+          name="name"
+          class="task-input"
+          placeholder="list items...."
+        />
+        <button type="submit" class="btn submit-btn">submit</button>
+      </div>
+      <div class="form-alert"></div>
+    </form>
+    <section class="tasks-container">
+      <p class="loading-text">Loading...</p>
+      <div class="tasks"></div>
+    </section>
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
+  </body>
+</html>
