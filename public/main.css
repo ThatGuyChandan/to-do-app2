@@ -4,21 +4,11 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-0: #f0efff;
-  --primary-50: #d8d6ff;
-  --primary-100: #c1beff;
-  --primary-200: #aaa5ff;
-  --primary-300: #938dff;
-  --primary-400: #7b74ff;
-  /* main */
   --primary-500: #645cff;
   --primary-600: #554ed9;
   --primary-700: #4640b3;
   --primary-800: #37338c;
   --primary-900: #282566;
-  --primary-1000: #191740;
-  --primary-1100: #0a0919;
-  /* grey */
   --grey-0: #fafbfc;
   --grey-50: #f2f4f8;
   --grey-100: #eaedf3;
@@ -30,10 +20,7 @@
   --grey-700: #8e949e;
   --grey-800: #70747c;
   --grey-900: #51545a;
-  --grey-1000: #333538;
-  --grey-1100: #141516;
 
-  /* rest */
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da;
@@ -41,11 +28,9 @@
   --green-light: #d1e7dd;
   --green-dark: #0f5132;
 
-  /* typography */
-  --headingFont: "Inconsolata", monospace;
-  --bodyFont: "Montserrat", sans-serif;
+  --headingFont: "Roboto", sans-serif;
+  --bodyFont: "Open Sans", sans-serif;
   --smallText: 0.7em;
-  /* rest */
   --backgroundColor: var(--black);
   --textColor: var(--grey-1000);
   --borderRadius: 0.25rem;
@@ -53,7 +38,6 @@
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
-  /* box shadows */
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -434,7 +418,7 @@ form > :last-child {
   background: var(--white);
 }
 .back-link:hover {
-  background: var(--grey-900);
+  background: green;
   opacity: 0.75;
 }
 
