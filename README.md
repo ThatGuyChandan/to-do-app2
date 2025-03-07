@@ -20,11 +20,11 @@ A user-friendly task management application built using Node.js, JavaScript, CSS
    git clone https://github.com/yourusername/task-manager.git
    cd task-manager
    ```
-2.Install dependencies:
+2. Install dependencies:
  ```sh
    npm install
  ```
-3.Set up environment variables:
+3. Set up environment variables:
 - Create a .env file in the root directory.
 - Add your MongoDB Atlas connection string:
    ```sh
@@ -32,9 +32,9 @@ A user-friendly task management application built using Node.js, JavaScript, CSS
    PORT=3000
 
    ```
-4.Run the application:
+4. Run the application:
  ```sh
    npm start
  ```
-5.Access the application:
+5. Access the application:
 - Open http://localhost:3000 in your browser.
