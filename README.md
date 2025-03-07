@@ -15,7 +15,6 @@ A user-friendly task management application built using Node.js, JavaScript, CSS
 - **Database:** MongoDB Atlas
 
 ## Installation
-
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/yourusername/task-manager.git
