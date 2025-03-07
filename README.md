@@ -16,10 +16,10 @@ A user-friendly task management application built using Node.js, JavaScript, CSS
 
 ## Installation
 1. **Clone the repository:**
-   ```sh
+```sh
    git clone https://github.com/yourusername/task-manager.git
    cd task-manager
-   ```
+```
 2. Install dependencies:
  ```sh
    npm install
